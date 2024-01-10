@@ -1,11 +1,16 @@
 <header class="header">
-    <div class="container">
-        <div class="header__row">
-            <div class="logo">Logo</div>
-            <button class="mobile-nav-btn">
-                <div class="nav-icon"></div>
-            </button>
-        </div>
+  <div class="container">
+    <div class="header__row">
+      <a class="logo logo--color" href="./">
+        <svg class="logo__svg icon">
+          <use href="./img/icons/sprite.svg#icons--logo"></use>
+        </svg>
+      </a>
+      @@include('nav.html') @@include('button-header.html')
+      <button class="mobile-nav-btn">
+        <div class="nav-icon"></div>
+      </button>
     </div>
+  </div>
 </header>
 @@include('mobile-nav.html')
