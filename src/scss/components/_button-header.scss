@@ -1,0 +1,11 @@
+.button--header {
+  @extend %button;
+  display: none;
+
+  @media screen and (min-width: $laptop) {
+    display: inline-block;
+    min-width: 238px;
+    padding: 16px 32px;
+    font-size: 18px;
+  }
+}
