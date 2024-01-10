@@ -1,10 +1,13 @@
 .header {
-	background-color: rgb(195, 220, 231);
-	padding: 50px 0;
+  background-color: var(--secondaryColor);
+  padding: 16px 0;
+  position: relative;
 
-	&__row {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	}
+  &__row {
+    // @media screen and (max-width: $laptop) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // }
+  }
 }
