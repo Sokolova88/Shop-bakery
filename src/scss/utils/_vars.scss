@@ -1,0 +1,24 @@
+:root {
+  // Fonts
+  --font-main: 'Poppins', sans-serif;
+
+  // Colors
+  --mainColor: #faf4ea;
+  --section-bg: #cfcfbc;
+  --text-color: #31261a;
+  --accentColor: #819b57;
+  --secondaryColor: #a18268;
+  --hoverColor: #465929;
+  --backdrop-bg: rgba(49, 38, 26, 0.4);
+  --shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  //Animation Properties
+  --duration: 300ms;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+// Breakpoints
+$laptop: 1280px;
+$tablet: 768px;
+$mobile: 360px;
+$container-padding: 20px;
