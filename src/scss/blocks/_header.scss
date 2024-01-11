@@ -1,13 +1,13 @@
 .header {
   background-color: var(--secondaryColor);
   padding: 16px 0;
-  position: relative;
 
   &__row {
-    // @media screen and (max-width: $laptop) {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    // }
+    align-items: flex-start;
+    @media screen and (min-width: $tablet) {
+      align-items: center;
+    }
   }
 }
