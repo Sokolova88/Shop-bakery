@@ -9,3 +9,11 @@
     font-size: 18px;
   }
 }
+
+.button--hero {
+  @extend %button;
+
+  @media screen and (min-width: $laptop) {
+    display: none;
+  }
+}
