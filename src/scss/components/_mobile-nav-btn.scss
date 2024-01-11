@@ -57,6 +57,9 @@
 }
 
 .nav-icon.nav-icon--active {
+  position: absolute;
+  top: 24px;
+  right: 24px;
   background-color: transparent;
 }
 
