@@ -3,7 +3,6 @@
 @import './utils/vars';
 @import './utils/utils';
 @import './utils/placeholders';
-@import './utils/sticky-footer';
 
 /* Base */
 @import './base/normalize';
@@ -16,7 +15,7 @@
 @import './components/mobile-nav-btn';
 @import './components/mobile-nav';
 @import './components/nav';
-@import './components/button-header';
+@import './components/buttons';
 
 /* Blocks */
 @import './blocks/*.scss';

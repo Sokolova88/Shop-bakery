@@ -17,9 +17,9 @@
   justify-content: center;
   align-items: center;
 
-  position: absolute;
-  top: 16px;
-  right: 20px;
+  // position: absolute;
+  // top: 16px;
+  // right: 20px;
 }
 
 .nav-icon {
@@ -57,6 +57,9 @@
 }
 
 .nav-icon.nav-icon--active {
+  position: absolute;
+  top: 24px;
+  right: 24px;
   background-color: transparent;
 }
 

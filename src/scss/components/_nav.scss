@@ -15,12 +15,12 @@
 .nav__link {
   color: var(--mainColor);
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 600;
   transition: color var(--duration) var(--timing-function),
     text-shadow var(--duration) var(--timing-function);
   &:hover,
   &:focus {
-    color: var(--hoverColor);
+    color: var(--accentColor);
     text-shadow: var(--shadow);
   }
 }

@@ -20,5 +20,11 @@
 // Breakpoints
 $laptop: 1280px;
 $tablet: 768px;
-$mobile: 360px;
+$mobile: 480px;
 $container-padding: 20px;
+$hero-overlay: linear-gradient(
+  103deg,
+  rgba(18, 18, 17, 0.78) 2.03%,
+  rgba(18, 18, 17, 0.6) 58.46%,
+  rgba(18, 18, 17, 0) 90.36%
+);
