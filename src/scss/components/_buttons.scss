@@ -12,6 +12,7 @@
 
 .button--hero {
   @extend %button;
+  margin-top: 48px;
 
   @media screen and (min-width: $laptop) {
     display: none;
