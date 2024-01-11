@@ -1,5 +1,6 @@
 .container {
-  padding: 0 $container-padding;
+  width: 100%;
   max-width: $laptop;
+  padding: 0 $container-padding;
   margin: 0 auto;
 }
