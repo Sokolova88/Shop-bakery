@@ -5,12 +5,11 @@
   }
 }
 
-.advantages-list {
+.advantages__list {
   padding: 24px 40px;
   border-radius: 24px;
   background-color: var(--section-bg);
   color: var(--text-color);
-  text-align: center;
 
   @media screen and (min-width: $tablet) {
     display: flex;
@@ -22,10 +21,11 @@
     background-color: transparent;
     font-size: 20px;
     color: var(--mainColor);
+    text-align: center;
   }
 }
 
-.advantages-item:not(:last-child) {
+.advantages__item:not(:last-child) {
   @media screen and (max-width: $tablet) {
     margin-bottom: 16px;
   }
