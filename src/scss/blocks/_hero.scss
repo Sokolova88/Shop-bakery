@@ -31,12 +31,8 @@
   }
 }
 
-.hero-title {
+.hero__title {
   color: var(--mainColor);
-  font-size: clamp(58px, 12.8vw, 128px);
+  font-size: clamp(58px, 11.37vw, 128px);
   font-weight: 900;
-
-  &--accent {
-    color: var(--accentColor);
-  }
 }
