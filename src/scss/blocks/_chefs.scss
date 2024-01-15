@@ -1,5 +1,5 @@
 .chefs__title {
-  min-width: 320px;
+  min-width: 280px;
   text-align: center;
 
   @media screen and (min-width: $laptop) {
@@ -38,7 +38,7 @@
 
   @media screen and (max-width: $laptop) {
     &:not(:last-child) {
-      margin-bottom: 16px;
+      margin-bottom: 36px;
     }
   }
 }
