@@ -11,7 +11,14 @@
     margin-bottom: 24px;
     display: block;
     color: var(--hoverColor);
-    // text-align: center;
+
+    @media screen and (min-width: $laptop) {
+      margin-bottom: 42px;
+      display: flex;
+      justify-content: flex-start;
+      font-size: 18px;
+      font-weight: 400;
+    }
   }
 
   &__field {
@@ -27,6 +34,11 @@
     border: 1px solid var(--secondaryColor);
     font-size: 16px;
     color: var(--secondaryColor);
+    transition: outline var(--duration) var(--timing-function);
+
+    @media screen and (min-width: $laptop) {
+      padding: 16px 42px;
+    }
   }
 
   &__label {
@@ -36,14 +48,48 @@
     transform: translateY(-50%);
 
     font-size: 16px;
+    font-weight: 400;
     color: var(--secondaryColor);
+    transition: transform var(--duration) var(--timing-function),
+      color var(--duration) var(--timing-function);
+
+    @media screen and (min-width: $laptop) {
+      left: 42px;
+      font-size: 18px;
+      font-weight: 400;
+    }
+  }
+
+  &__privacy {
+    display: none;
+
+    @media screen and (min-width: $tablet) {
+      display: block;
+      margin: 16px auto 0;
+      max-width: 240px;
+
+      font-size: 12px;
+      font-weight: 400;
+      color: var(--text-color);
+
+      &-link {
+        text-decoration-line: underline;
+        text-underline-offset: 2px;
+      }
+    }
   }
 }
 
+// Input states when focused
+
 .contacts-form__field:focus-within > .contacts-form__label,
 .contacts-form__input:not(:placeholder-shown) + .contacts-form__label {
-  transform: translateY(-170%);
+  transform: translateY(-40px);
   color: var(--accentColor);
+
+  @media screen and (min-width: $laptop) {
+    transform: translateY(-50px);
+  }
 }
 
 .contacts-form__field:focus-within > .contacts-form__input {
