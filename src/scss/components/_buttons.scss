@@ -1,4 +1,4 @@
-.button--header {
+.button--desktop {
   @extend %button;
   display: none;
 
@@ -10,11 +10,15 @@
   }
 }
 
-.button--hero {
+.button--mobile {
   @extend %button;
   margin-top: 48px;
 
   @media screen and (min-width: $laptop) {
     display: none;
   }
+}
+
+.button-submit {
+  @extend %button;
 }

@@ -1,11 +1,11 @@
-.about__row {
+.about--row {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 40px;
 }
 
-.about__inner {
+.about--inner {
   flex-basis: 710px;
 }
 
@@ -42,7 +42,7 @@
   }
 }
 
-.about-img__inner {
+.about-img--nner {
   @media screen and (max-width: $tablet) {
     display: none;
   }
