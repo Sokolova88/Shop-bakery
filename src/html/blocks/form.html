@@ -1,0 +1,26 @@
+<!-- Form -->
+<form name="contactsForm" class="contacts-form" autocomplete="off">
+  <b class="contacts-form__promo">Заповни форму, щоб ми звʼязались з тобою!</b>
+  <label class="contacts-form__field">
+    <input
+      class="contacts-form__input"
+      type="text"
+      name="userName"
+      placeholder=" "
+      minlength="2"
+      required
+    />
+    <span class="contacts-form__label">Ім’я</span>
+  </label>
+
+  <label class="contacts-form__field">
+    <input class="contacts-form__input" type="tel" name="userPhone" placeholder=" " required />
+    <span class="contacts-form__label">Телефон</span>
+  </label>
+
+  <label class="contacts-form__field">
+    <input class="contacts-form__input" type="email" name="userEmail" placeholder=" " required />
+    <span class="contacts-form__label">Електронна пошта</span>
+  </label>
+  <button type="submit" class="button-submit">Замовити дзвінок</button>
+</form>
