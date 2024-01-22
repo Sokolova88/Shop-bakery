@@ -8,10 +8,13 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    @@include('blocks/header.html') @@include('blocks/hero.html')
-    @@include('blocks/advantages.html') @@include('blocks/about.html')
-    @@include('blocks/chefs.html') @@include('blocks/formats.html')
-    @@include('blocks/contacts.html') @@include('blocks/footer.html') @@include('blocks/modal.html')
+    @@include('blocks/header.html')
+    <main>
+      @@include('blocks/hero.html') @@include('blocks/advantages.html')
+      @@include('blocks/about.html') @@include('blocks/chefs.html') @@include('blocks/formats.html')
+      @@include('blocks/contacts.html')
+    </main>
+    @@include('blocks/footer.html') @@include('blocks/modal.html')
     <script src="./js/index.bundle.js"></script>
   </body>
 </html>
