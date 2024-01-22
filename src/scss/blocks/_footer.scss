@@ -7,8 +7,9 @@
   background-color: var(--text-color);
   background-image: url('../img/bg-footerOverlay-mobile.png');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center bottom;
   background-size: cover;
+  object-fit: cover;
 
   @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
@@ -17,8 +18,10 @@
     background-image: url('../img/bg-footerOverlay-mobile@2x.png');
   }
 
-  @media screen and (min-width: $laptop) {
+  @media screen and (min-width: $tablet) {
+    text-align: left;
     background-image: url('../img/bg-footerOverlay-desctop.png');
+    background-position: left bottom;
 
     @media (min-device-pixel-ratio: 2),
       (-webkit-min-device-pixel-ratio: 2),
@@ -29,16 +32,64 @@
   }
 }
 
-.footer__nav {
-  margin-top: 32px;
+.footer__inner {
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 80px;
+  }
 
-  &__item {
-    margin-bottom: 18px;
+  @media screen and (min-width: $laptop) {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 166px;
   }
 }
 
-.address-item:not(:last-child) {
+.footer__nav {
+  margin-top: 32px;
   margin-bottom: 18px;
+
+  @media screen and (min-width: $tablet) {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  &__item:not(:last-child) {
+    margin-bottom: 18px;
+
+    @media screen and (min-width: $laptop) {
+      margin-bottom: 16px;
+    }
+  }
+
+  &__link {
+    transition: color var(--duration) var(--timing-function);
+
+    &:hover,
+    &:focus {
+      color: var(--accentColor);
+    }
+  }
+}
+
+.address__item:not(:last-child) {
+  margin-bottom: 18px;
+}
+
+.address__link {
+  transition: color var(--duration) var(--timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--accentColor);
+  }
 }
 
 .social-list {
@@ -49,6 +100,10 @@
   align-items: center;
   justify-content: center;
   gap: 22px;
+
+  @media screen and (min-width: $laptop) {
+    justify-content: flex-start;
+  }
 
   &__link {
     display: flex;
@@ -72,8 +127,19 @@
   }
 }
 
-.footer__info-copy {
-  margin-top: 8px;
-  color: var(--secondaryColor);
-  font-size: 12px;
+.footer__info {
+  @media screen and (min-width: $tablet) and (max-width: calc($laptop - 1px)) {
+    margin: 0 auto;
+  }
+
+  &-copy {
+    margin-top: 8px;
+    color: var(--secondaryColor);
+    font-size: 12px;
+
+    @media screen and (min-width: $laptop) {
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
 }
