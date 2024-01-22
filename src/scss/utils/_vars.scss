@@ -1,20 +1,20 @@
 :root {
   // Fonts
-  --font-main: 'Poppins', sans-serif;
+  --fontMain: 'Poppins', sans-serif;
 
   // Colors
-  --mainColor: #faf4ea;
-  --section-bg: #cfcfbc;
-  --text-color: #31261a;
+  --lightColor: #faf4ea;
+  --darkColor: #31261a;
   --accentColor: #819b57;
   --secondaryColor: #a18268;
   --hoverColor: #465929;
-  --backdrop-bg: rgba(49, 38, 26, 0.4);
+  --sectionBg: #cfcfbc;
+  --backdropBg: rgba(49, 38, 26, 0.4);
   --shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
   //Animation Properties
   --duration: 300ms;
-  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --timingFunction: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 // Breakpoints

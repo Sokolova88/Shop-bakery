@@ -7,7 +7,7 @@
   font-weight: 600;
   line-height: 1.5;
   text-align: center;
-  color: var(--mainColor);
+  color: var(--lightColor);
 
   border-radius: 8px;
   border: 2px solid var(--accentColor);
@@ -15,8 +15,8 @@
   background-color: var(--accentColor);
 
   cursor: pointer;
-  transition: background-color var(--duration) var(--timing-function),
-    box-shadow var(--duration) var(--timing-function);
+  transition: background-color var(--duration) var(--timingFunction),
+    box-shadow var(--duration) var(--timingFunction);
 
   @media screen and (min-width: $laptop) {
     min-width: 238px;

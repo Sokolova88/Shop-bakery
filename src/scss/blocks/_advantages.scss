@@ -8,8 +8,8 @@
 .advantages__list {
   padding: 24px 40px;
   border-radius: 24px;
-  background-color: var(--section-bg);
-  color: var(--text-color);
+  background-color: var(--sectionBg);
+  color: var(--darkColor);
 
   @media screen and (min-width: $tablet) {
     display: flex;
@@ -20,7 +20,7 @@
     border-radius: 0;
     background-color: transparent;
     font-size: 20px;
-    color: var(--mainColor);
+    color: var(--lightColor);
     text-align: center;
   }
 }

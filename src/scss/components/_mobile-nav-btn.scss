@@ -71,12 +71,12 @@
 
 .nav-icon.nav-icon--active::before {
   transform: rotate(45deg);
-  background-color: var(--text-color);
+  background-color: var(--darkColor);
 }
 
 .nav-icon.nav-icon--active::after {
   transform: rotate(-45deg);
-  background-color: var(--text-color);
+  background-color: var(--darkColor);
   width: 14px;
 }
 

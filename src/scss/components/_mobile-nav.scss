@@ -8,13 +8,13 @@
 
   padding: 16px 24px;
 
-  background-color: var(--mainColor);
+  background-color: var(--lightColor);
   background-image: url('../img/bg-mobileMenu.png');
   background-position: right bottom;
   background-repeat: no-repeat;
 
   transform: translateX(100%);
-  transition: transform var(--duration) var(--timing-function);
+  transition: transform var(--duration) var(--timingFunction);
 }
 
 .mobile-nav--open {
@@ -30,8 +30,8 @@
 }
 
 .mobile-nav__link {
-  transition: color var(--duration) var(--timing-function),
-    font-weight var(--duration) var(--timing-function);
+  transition: color var(--duration) var(--timingFunction),
+    font-weight var(--duration) var(--timingFunction);
   &:hover,
   &:focus {
     color: var(--accentColor);
