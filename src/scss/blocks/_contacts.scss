@@ -1,18 +1,24 @@
-.contacts__wrap-inner {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-
+.contacts {
   @media screen and (min-width: $tablet) {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 32px;
+    padding-bottom: 96px;
   }
-}
 
-.wrap-inner--row {
-  flex-basis: calc((100% - 32px) / 2);
+  &__wrap-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    @media screen and (min-width: $tablet) {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 32px;
+    }
+
+    &--row {
+      flex-basis: calc((100% - 32px) / 2);
+    }
+  }
 }
 
 .contacts__title {
