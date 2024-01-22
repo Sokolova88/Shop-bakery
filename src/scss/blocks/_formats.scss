@@ -61,19 +61,28 @@
 }
 
 // Styles for the pagination's bullets
-.swiper-pagination-bullet {
-  width: 8px !important;
-  height: 8px !important;
-  background-color: var(--secondaryColor) !important;
-  opacity: 1 !important;
+.swiper-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.pagination__bullet {
+  width: 8px;
+  height: 8px;
+  background-color: var(--secondaryColor);
+  opacity: 1;
+  cursor: pointer;
+  border-radius: 50%;
 
   @media screen and (min-width: $tablet) {
-    width: 11px !important;
-    height: 11px !important;
+    width: 11px;
+    height: 11px;
   }
 
-  &-active {
-    background-color: var(--accentColor) !important;
+  &--active {
+    background-color: var(--accentColor);
   }
 }
 

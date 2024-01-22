@@ -24,6 +24,8 @@ const swiper = new Swiper('.swiper', {
 
   pagination: {
     el: '.swiper-pagination',
+    bulletClass: 'pagination__bullet',
+    bulletActiveClass: 'pagination__bullet--active',
     clickable: true,
   },
 
