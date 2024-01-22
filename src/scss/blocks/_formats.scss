@@ -41,7 +41,7 @@
     bottom: 0;
     left: 0;
     padding: 24px;
-    color: var(--mainColor);
+    color: var(--lightColor);
 
     display: flex;
     flex-direction: column;
@@ -100,15 +100,15 @@
     flex-shrink: 0;
 
     background-color: transparent;
-    border: 1px solid var(--text-color);
+    border: 1px solid var(--darkColor);
     border-radius: 50%;
 
-    transition: background-color var(--duration) var(--timing-function),
-      border var(--duration) var(--timing-function), color var(--duration) var(--timing-function);
+    transition: background-color var(--duration) var(--timingFunction),
+      border var(--duration) var(--timingFunction), color var(--duration) var(--timingFunction);
 
     &:hover,
     &:focus {
-      background-color: var(--text-color);
+      background-color: var(--darkColor);
       border: 1px solid var(--accentColor);
     }
 

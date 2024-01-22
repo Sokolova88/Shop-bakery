@@ -11,7 +11,7 @@
       content: '';
       display: block;
       width: 352px;
-      border: 2px solid var(--section-bg);
+      border: 2px solid var(--sectionBg);
 
       position: absolute;
       bottom: 23px;
@@ -56,7 +56,7 @@
 .chefs__img {
   min-width: 140px;
   border-radius: 2px 2px 2px 116px;
-  box-shadow: -10px 9px 0 0 var(--mainColor), -10px 9px 0 1px var(--secondaryColor);
+  box-shadow: -10px 9px 0 0 var(--lightColor), -10px 9px 0 1px var(--secondaryColor);
 }
 
 // .chefs__img--box {

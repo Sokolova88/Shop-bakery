@@ -34,7 +34,7 @@
     border: 1px solid var(--secondaryColor);
     font-size: 16px;
     color: var(--secondaryColor);
-    transition: outline var(--duration) var(--timing-function);
+    transition: outline var(--duration) var(--timingFunction);
 
     @media screen and (min-width: $laptop) {
       padding: 16px 42px;
@@ -50,8 +50,8 @@
     font-size: 16px;
     font-weight: 400;
     color: var(--secondaryColor);
-    transition: transform var(--duration) var(--timing-function),
-      color var(--duration) var(--timing-function);
+    transition: transform var(--duration) var(--timingFunction),
+      color var(--duration) var(--timingFunction);
 
     @media screen and (min-width: $laptop) {
       left: 42px;
@@ -70,7 +70,7 @@
 
       font-size: 12px;
       font-weight: 400;
-      color: var(--text-color);
+      color: var(--darkColor);
 
       &-link {
         text-decoration-line: underline;
