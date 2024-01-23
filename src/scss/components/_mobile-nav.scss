@@ -13,8 +13,12 @@
   background-position: right bottom;
   background-repeat: no-repeat;
 
-  transform: translateX(100%);
+  transform: translateX(150%);
   transition: transform var(--duration) var(--timingFunction);
+
+  & .logo__svg--color-dark {
+    color: var(--darkColor);
+  }
 }
 
 .mobile-nav--open {
