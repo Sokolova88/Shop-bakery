@@ -27,8 +27,9 @@ goods.
 
 ## Overview
 
-<img align="right" src="./img/icons/logo.svg" width="60"/>
-**Shop Bakery** is an app designed for bakeries that provides a pleasant and user-friendly user
+<img align="right" src="./img/icons/logo.svg" width="60" height="40" color="black"/>
+
+Shop Bakery is an app designed for bakeries that provides a pleasant and user-friendly user
 experience to explore bakery traditions, bakers, and cozy hangouts.
 
 The application includes a header, a main section with a “Request a call” button, and sections with
@@ -63,9 +64,8 @@ window. Also, for user convenience, there is a map with the location of the main
 
 ## Screenshots
 
-![Home Page](./src/img/screen/main-page.png) _Caption for Screenshot 1 (shop-bakery Main Page)_
-![Home Page](./src/img/screen/main-content.png) _Caption for Screenshot 2 (shop-bakery Main
-Content)_
+![Home Page](./src/img/screen/main-page.png) _Hero Section_
+![Home Page](./src/img/screen/main-content.png) _Main Content_
 
 ## Issues
 
@@ -110,7 +110,6 @@ experience.
 <a href="https://github.com/Sokolova88" target="_blank">
 <img src="https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white" alt="github" style="margin-bottom: 5px;" />
 </a>
-<a href="tg://resolve?domain=SokolovaAnna88" target="_blank">
-<img  src="https://img.shields.io/badge/telegram-0bb0dd.svg?&style=for-the-badge&logo=telegram&logoColor=white"  alt="telegram"   style="margin-bottom: 5px;" />
-</a>
+<a href="https://www.facebook.com/anchoysss" target="_blank">
+<img src=https://img.shields.io/badge/facebook-%232E87FB.svg?&style=for-the-badge&logo=facebook&logoColor=white alt=facebook style="margin-bottom: 5px;" />
 </div>
