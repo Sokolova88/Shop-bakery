@@ -21,6 +21,7 @@ goods.
 - [Overview](#overview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
+- [Demo](#demo)
 - [Screenshots](#screenshots)
 - [License](#license)
 - [Contact](#connect-with-me)
@@ -67,10 +68,10 @@ window. Also, for user convenience, there is a map with the location of the main
 ![Home Page](./src/img/screen/main-page.png) _Caption for Screenshot 1 - Hero Section_
 
 <p align="center">
-  <img src="./src/img/screen/main-content.png">
+  <img src="./src/img/screen/main-content.png" alt="Screenshot 2 - Main Section">
 </p>
 
-<!-- ![Home Page](./src/img/screen/main-content.png) _Caption for Screenshot 2 - Main Section_ -->
+_Caption for Screenshot 2 - Main Section_
 
 ## Issues
 
