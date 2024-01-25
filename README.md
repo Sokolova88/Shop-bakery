@@ -93,9 +93,9 @@ experience.
 
 <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"><img src="https://www.svgrepo.com/show/374171/vscode.svg" alt="vscode" width="40" height="40"/>
 </a>
-<a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style="margin: 10px" src="https://www.svgrepo.com/show/452228/html-5.svg" alt="HTML5" height="50" /></a>
-<a href="https://www.w3schools.com/css/" target="_blank"><img style="margin: 10px" src="https://www.svgrepo.com/show/373535/css.svg" alt="CSS3" height="50" /></a>
-<a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://www.svgrepo.com/show/452045/js.svg" alt="JavaScript" height="50" /></a>
+<a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style="margin: 10px" src="https://www.svgrepo.com/show/452228/html-5.svg" alt="HTML5" height="40" /></a>
+<a href="https://www.w3schools.com/css/" target="_blank"><img style="margin: 10px" src="https://www.svgrepo.com/show/373535/css.svg" alt="CSS3" height="40" /></a>
+<a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://www.svgrepo.com/show/452045/js.svg" alt="JavaScript" height="40" /></a>
 <a href="https://sass-lang.com/" target="_blank" rel="noreferrer"><img src="https://www.svgrepo.com/show/354310/sass.svg" width="36" height="36" alt="SASS" /></a>
 <a href="https://swiperjs.com/" target="_blank" rel="noreferrer"><img src="https://swiperjs.com/images/swiper-logo.svg" width="36" height="36" alt="Swiper" /></a>
 <a href="https://gulpjs.com/" target="_blank" rel="noreferrer"><img src="https://www.svgrepo.com/show/353845/gulp.svg" width="36" height="36" alt="Gulp" /></a>

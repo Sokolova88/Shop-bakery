@@ -6,7 +6,7 @@ const gulp = require('gulp');
 // HTML
 const fileInclude = require('gulp-file-include');
 const htmlclean = require('gulp-htmlclean');
-const webpHTML = require('gulp-webp-html');
+// const webpHTML = require('gulp-webp-html');
 
 // SASS
 const sass = require('gulp-sass')(require('sass'));
@@ -91,14 +91,16 @@ const svgSpriteOptions = {
 // Таска обрабатывает html файлы и подключает один файл в другой
 //
 gulp.task('html:docs', function () {
-  return gulp
-    .src(['./src/html/**/*.html', '!./src/html/blocks/*.html'])
-    .pipe(changed('./docs/'))
-    .pipe(plumber(plumberNotify('HTML')))
-    .pipe(fileInclude())
-    .pipe(webpHTML())
-    .pipe(htmlclean())
-    .pipe(gulp.dest('./docs/'));
+  return (
+    gulp
+      .src(['./src/html/**/*.html', '!./src/html/blocks/*.html'])
+      .pipe(changed('./docs/'))
+      .pipe(plumber(plumberNotify('HTML')))
+      .pipe(fileInclude())
+      // .pipe(webpHTML())
+      .pipe(htmlclean())
+      .pipe(gulp.dest('./docs/'))
+  );
 });
 
 //
