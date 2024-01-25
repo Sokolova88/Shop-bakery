@@ -1,7 +1,7 @@
 {
-  "name": "gulp-2023",
+  "name": "shop-bakery",
   "version": "1.0.0",
-  "description": "A toolkit to automate & enhance workflow",
+  "description": "application for a company that offers and sells baked goods",
   "main": "gulpfile.js",
   "directories": {
     "doc": "docs"
@@ -10,15 +10,15 @@
     "start": "cross-env PORT=7070 gulp start --development",
     "docs": "gulp docs --production"
   },
-  "homepage": "https://github.com/Sokolova88/gulp-start-23",
+  "homepage": "https://github.com/Sokolova88/Shop-bakery",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sokolova88/gulp-start-23.git"
+    "url": "git+https://github.com/Sokolova88/Shop-bakery.git"
   },
   "author": "anna-sokolova <sokolovaskorik@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Sokolova88/gulp-start-23/issues"
+    "url": "https://github.com/Sokolova88/Shop-bakery/issues"
   },
   "devDependencies": {
     "@babel/core": "^7.22.5",
