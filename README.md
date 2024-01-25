@@ -29,7 +29,7 @@ goods.
 
 <img align="right" src="./img/icons/logo.svg" width="60" height="40" color="black"/>
 
-Shop Bakery is an app designed for bakeries that provides a pleasant and user-friendly user
+**Shop Bakery** is an app designed for bakeries that provides a pleasant and user-friendly user
 experience to explore bakery traditions, bakers, and cozy hangouts.
 
 The application includes a header, a main section with a “Request a call” button, and sections with
@@ -64,8 +64,13 @@ window. Also, for user convenience, there is a map with the location of the main
 
 ## Screenshots
 
-![Home Page](./src/img/screen/main-page.png) _Hero Section_
-![Home Page](./src/img/screen/main-content.png) _Main Content_
+![Home Page](./src/img/screen/main-page.png) _Caption for Screenshot 1 - Hero Section_
+
+<p align="center">
+  <img src="./src/img/screen/main-content.png">
+</p>
+
+<!-- ![Home Page](./src/img/screen/main-content.png) _Caption for Screenshot 2 - Main Section_ -->
 
 ## Issues
 
