@@ -1,5 +1,7 @@
 .advantages {
   @media screen and (min-width: $tablet) {
+    max-width: 1600px;
+    margin: 0 auto;
     padding-top: 0;
     background-color: var(--accentColor);
   }

@@ -19,6 +19,8 @@
   }
 
   @media screen and (min-width: $tablet) {
+    max-width: 1600px;
+    margin: 0 auto;
     text-align: left;
     background-image: url('../img/bg-footerOverlay-desctop.png');
     background-position: left bottom;
