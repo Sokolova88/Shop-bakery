@@ -7,6 +7,7 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-Latest-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![HTML](https://img.shields.io/badge/HTML5-<!DOCTYPE%20html>-orange)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS](https://img.shields.io/badge/CSS3-styles-blue)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
 [![SASS](https://img.shields.io/badge/SASS-pink)](https://sass-lang.com/)
 [![NPM](https://img.shields.io/badge/npm-red)](https://www.npmjs.com/)
 [![Swiper](https://img.shields.io/badge/swiper-blue)](https://swiperjs.com/)
@@ -26,7 +27,8 @@ goods.
 
 ## Overview
 
-Shop Bakery is an app designed for bakeries that provides a pleasant and user-friendly user
+<img align="right" src="./img/icons/logo.svg" width="60"/>
+**Shop Bakery** is an app designed for bakeries that provides a pleasant and user-friendly user
 experience to explore bakery traditions, bakers, and cozy hangouts.
 
 The application includes a header, a main section with a “Request a call” button, and sections with
@@ -38,6 +40,8 @@ window. Also, for user convenience, there is a map with the location of the main
 
 ## Features
 
+- Desktop, tablet, mobile - **adaptive layout**
+- **BEM methodology**
 - Header for easy navigation and mobile menu
 - Hero section with a "Request a call" CTA button
 - Modal window for feedback with clients
@@ -51,17 +55,7 @@ window. Also, for user convenience, there is a map with the location of the main
 
 ## Technologies Used
 
-- ![VSCode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-- ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-- ![GULP](https://img.shields.io/badge/GULP-lightgrey?style=for-the-badge&logo=gulp)
-- ![NPM](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
-- ![HTML](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)
-- ![CSS](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white)
-- ![SASS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
-- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
-- ![Swiper](https://img.shields.io/badge/Swiper-007aff?style=for-the-badge&logo=swiper)
-- ![Git](https://img.shields.io/badge/Git-black?logo=git)
-- ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+![VSCode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)![GULP](https://img.shields.io/badge/GULP-lightgrey?style=for-the-badge&logo=gulp)![NPM](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)![HTML](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)![CSS](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white)![SASS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)![Swiper](https://img.shields.io/badge/Swiper-007aff?style=for-the-badge&logo=swiper)![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)![BEM](https://img.shields.io/badge/BEM-052433?style=for-the-badge&logo=BEM&logoColor=white)![Git](https://img.shields.io/badge/Git-black?style=for-the-badge&logo=git)
 
 ## Demo
 
@@ -116,7 +110,7 @@ experience.
 <a href="https://github.com/Sokolova88" target="_blank">
 <img src="https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white" alt="github" style="margin-bottom: 5px;" />
 </a>
-<a href="t.me/SokolovaAnna88" target="_blank">
+<a href="tg://resolve?domain=SokolovaAnna88" target="_blank">
 <img  src="https://img.shields.io/badge/telegram-0bb0dd.svg?&style=for-the-badge&logo=telegram&logoColor=white"  alt="telegram"   style="margin-bottom: 5px;" />
 </a>
 </div>
