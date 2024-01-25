@@ -61,7 +61,7 @@ window. Also, for user convenience, there is a map with the location of the main
 
 ## Demo
 
-[Demo](sokolova88.github.io/Shop-bakery/)
+[Demo](https://sokolova88.github.io/Shop-bakery/)
 
 ## Screenshots
 
@@ -118,4 +118,5 @@ experience.
 </a>
 <a href="https://www.facebook.com/anchoysss" target="_blank">
 <img src=https://img.shields.io/badge/facebook-%232E87FB.svg?&style=for-the-badge&logo=facebook&logoColor=white alt=facebook style="margin-bottom: 5px;" />
+</a>
 </div>
